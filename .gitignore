@@ -1,0 +1,26 @@
+
+# configuration and readme
+!.gitignore
+!.gitpod.yml
+.theia
+.vscode
+!.gitpod.Dockerfile
+!bc.json
+!README.md
+
+# breathecode exercises
+!/.breathecode
+/.breathecode/**
+!/.breathecode/bc.json
+!/.breathecode/.bc.json
+!/.breathecode/exercises
+!/.breathecode/exercises/**
+!/.breathecode/assets
+!/.breathecode/assets/**
+
+# python garbage
+*.pyc
+.venv
+conftest.py
+__pycache__/
+.pytest_cache/
